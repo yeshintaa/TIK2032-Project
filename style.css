@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
   }
 
   body {
-    font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
@@ -415,3 +417,12 @@ body{
       padding: 10px;
     }
   }
+
+.clock {
+    font-size: 52px;
+    padding: 10px;
+    border: 2px solid rgb(38, 48, 136);
+    border-radius: 5px;
+    background-color: rgba(32, 121, 166, 0.5);
+    text-align: center;
+}
