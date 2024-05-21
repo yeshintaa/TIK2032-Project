@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Poppins', Arial, sans-serif; /* Menggabungkan font 'Poppins' dengan fallback ke Arial */
+    font-family: 'Poppins', Arial, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
@@ -16,9 +16,9 @@ body {
 }
 
 header {
-    background-color: #6b77d2; /* Menggunakan warna hijau dari kode sebelumnya */
+    background-color: #6b77d2;
     color: white;
-    padding: 10px 0; /* Menyesuaikan padding sesuai dengan kode sebelumnya */
+    padding: 10px 0;
     text-align: center;
     border-bottom: 4px solid #4270ae;
 }
@@ -30,16 +30,16 @@ header h1 {
 
 nav ul {
     list-style-type: none;
-    padding: 0; /* Menghapus padding sesuai dengan kode sebelumnya */
+    padding: 0; 
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px; /* Menyesuaikan margin sesuai dengan kode sebelumnya */
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: white; /* Menggunakan warna putih dari kode sebelumnya */
+    color: white;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px; 
@@ -63,10 +63,10 @@ section {
 
 
 footer {
-    background-color: #f1f1f1; /* Menggunakan warna abu-abu muda dari kode sebelumnya */
+    background-color: #f1f1f1;
     text-align: center;
     padding: 10px 0;
-    position: fixed; /* Menambahkan posisi fixed sesuai dengan kode sebelumnya */
+    position: fixed; 
     width: 100%;
     bottom: 0;
     clear: both; 
@@ -88,8 +88,8 @@ footer {
 }
 
 .gallery {
-    --s: 300px; /* Adjust the size */
-    --g: 8px;   /* control the gap */
+    --s: 300px; 
+    --g: 8px;   
 
     display: grid;
     grid: auto-flow var(--s)/repeat(2,var(--s));
@@ -97,7 +97,7 @@ footer {
 }
 
 .gallery > img {
-    width: 100%; /* Adjust the width of the images */
+    width: 100%;
     aspect-ratio: 1;
     cursor: pointer;
     filter: grayscale();
@@ -249,8 +249,8 @@ section p {
 }
 
 .clock {
-    font-size: 1.5em; /* Menyesuaikan ukuran font sesuai dengan kode sebelumnya */
-    margin-top: 10px; /* Menyesuaikan margin atas sesuai dengan kode sebelumnya */
+    font-size: 1.5em; 
+    margin-top: 10px; 
     padding: 10px;
     border: 2px solid rgb(38, 48, 136);
     border-radius: 5px;
